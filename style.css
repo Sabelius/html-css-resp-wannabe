@@ -78,32 +78,34 @@ img {
   }
   #lezioni .row{
     background-color: rgb(221, 221, 144);
-    font-size: 2em;
+    font-size: 1.3em;
   }
   #lezioni .row>.left,
   #lezioni .row>.right{
     width: 100%;
     padding-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
   #steps .row{
-    font-size: 2em;
+    font-size: 1.3em;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
     width: 100%;
     padding-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
   #why .row{
     background-color: rgb(221, 221, 144);
-    font-size: 2em;
+    font-size: 1.3em;
   }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third{
-    font-size: 1.5em;
+    font-size: 1.1em;
+    width: 50%;
+    padding-left: 25%;
   }
   hr{
     background-color: black;
