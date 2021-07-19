@@ -107,3 +107,41 @@ img {
   }
 }
   
+@media screen and (min-width:420px) and (max-width:920px) {
+  #lezioni .row{
+    background-color: yellow;
+    font-size: 1.5em;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    font-size: 30px;
+  }
+  #steps .row{
+    font-size: 1.5em;
+    background-color: rgb(128, 190, 190);
+    color: rgb(136, 95, 95);
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width:50%;
+    font-size: 30px;
+  }
+  #steps .row>.right{
+    padding: 20px 0 0 250px;
+  }
+  #why .row{
+    background-color: yellow;
+    font-size: 1.5em;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    font-size: 40px;
+    width: 50%;
+    padding-left: 250px;
+  }
+  hr{
+    display: none;
+  }
+}
